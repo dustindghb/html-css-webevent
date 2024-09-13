@@ -1,7 +1,7 @@
 /*when screen size is less than 1200 navigation will dissappear and show hamburger menu*/
 @media screen and (max-width: 1200px){
     #desktop-nav{
-        display:none;
+        display: none;
     }
     #hamburger-nav{
         display: flex;
