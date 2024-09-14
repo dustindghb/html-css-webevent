@@ -149,4 +149,45 @@ a:hover{
 .hamburger-icon span {
     transition: all 0.3s ease-in-out; /* Ensure transition is applied */
 }
+
+/*Sections*/
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display:flex;
+}
+
+/*Front Page*/
+#front-page{
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container {
+    display: flex; /* Flexbox layout, if needed for alignment */
+    position: absolute; /* Allows precise positioning */
+    top: 20px; /* Space from the top */
+    left: 20px; /* Space from the left */
+    width: 100px; /* Set the width of the container */
+    height: 100px; /* Set the height of the container */
+}
+
+.section_pic-container img {
+    display: block; /* Removes default inline spacing */
+    width: 100%; /* Make the image take up the full width of the container */
+    height: 100%; /* Make the image take up the full height of the container */
+    object-fit: contain; /* Ensures the image fits within the container without cropping */
+}
+
+.section_text{
+    align-self: center;
+    text-align: center;
 }
