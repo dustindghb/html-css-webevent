@@ -171,7 +171,7 @@ section{
     height: 80vh;
 }
 
-.section_pic-container {
+.section_pic-logo {
     display: flex; /* Flexbox layout, if needed for alignment */
     position: absolute; /* Allows precise positioning */
     top: 20px; /* Space from the top */
@@ -180,15 +180,36 @@ section{
     height: 100px; /* Set the height of the container */
 }
 
-.section_pic-container img {
-    display: block; /* Removes default inline spacing */
-    width: 100%; /* Make the image take up the full width of the container */
-    height: 100%; /* Make the image take up the full height of the container */
-    object-fit: contain; /* Ensures the image fits within the container without cropping */
+.section_pic-main{
+    display:flex;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+    padding-right: 100px;
 }
 
-.section_text_p1{
-    align-self: center;
-    text-align: justify;
-    justify-content: flex-end;
+.section_text{
+    align-self:center;
+    text-align: left;
 }
+
+.section_text {
+    padding-left: 50px;
+}
+
+/* Styling for individual paragraphs */
+.section_text_p1, .section_text_p2 {
+    margin: 10px 0; /* Space above and below paragraphs */
+    line-height: 1.6; /* Improve readability */
+}
+
+.button-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
