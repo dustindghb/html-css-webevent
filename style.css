@@ -187,7 +187,8 @@ section{
     object-fit: contain; /* Ensures the image fits within the container without cropping */
 }
 
-.section_text{
+.section_text_p1{
     align-self: center;
-    text-align: center;
+    text-align: justify;
+    justify-content: flex-end;
 }
