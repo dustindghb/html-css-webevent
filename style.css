@@ -197,15 +197,34 @@ section{
     padding-left: 50px;
 }
 
+.button-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
 /* Styling for individual paragraphs */
 .section_text_p1, .section_text_p2 {
     margin: 10px 0; /* Space above and below paragraphs */
     line-height: 1.6; /* Improve readability */
 }
 
-.button-link:hover {
-    color: #0056b3; /* Darker blue on hover */
-}
+.section_text_piece0b {
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.5em;
+    white-space: pre;
+    display: block;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .section_text_piece0b br {
+    display: block;
+    content: "";
+    margin-top: 5px;
+  }
 
 
 
