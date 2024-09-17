@@ -208,24 +208,15 @@ section{
 }
 
 .section_text_piece0b {
+    display: flex;
     font-family: monospace;
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.5em;
-    white-space: pre;
-    display: block;
     padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    text-align: left;
+
   }
   
-  .section_text_piece0b br {
-    display: block;
-    content: "";
-    margin-top: 5px;
-  }
-
 
 
 
